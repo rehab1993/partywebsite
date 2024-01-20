@@ -1,0 +1,71 @@
+:root{
+    scroll-behavior: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+#home{
+    background-image:linear-gradient(rgba(236, 76, 76, 0.9),rgba(212, 124, 124, 0.9)),url(../images/bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#home-content{
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+
+#side-bar{
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: start;
+   
+}
+
+.open-icon{
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 100%;
+  
+}
+.inner-side{
+   
+    height: 100%;
+}
+.nav-item:hover{
+  color: rgb(237, 97, 97);
+    
+}
+
+#Duration h3{
+    background-color:rgb(237, 97, 97); 
+    cursor: pointer;
+    padding: 20px;
+    margin: 0;
+}
+#Duration p{
+    background-color:#cccccc;
+    display: none;
+}
+
+#Details{
+    background-image: linear-gradient(rgba(236, 76, 76, 0.9),rgba(212, 124, 124, 0.9)),url(../images/counters-bg.jpg);
+   
+    background-attachment: fixed;
+    background-position: center; 
+
+}
+
+
+#Contact h3{
+    color:rgb(237, 97, 97); ;
+}
